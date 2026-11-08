@@ -45,18 +45,18 @@ function Moon({ id, cx, cy, r }: { id: string; cx: number; cy: number; r: number
 
 const Dream = () => (
   <>
-    <Sky id="dream" stops={[[0, '#0a0620'], [0.55, '#2a1650'], [1, '#4a2a6e']]} />
+    <Sky id="dream" stops={[[0, '#8fc8ee'], [0.55, '#b5dcf7'], [1, '#e0f3ff']]} />
     <Stars seed={3} count={160} />
     <Moon id="dream" cx={420} cy={200} r={70} />
-    <path d={ridge(11, 700, 90, { smooth: true })} fill="#1d1238" />
+    <path d={ridge(11, 700, 90, { smooth: true })} fill="#79acd0" />
     {/* صخره و برج */}
-    <path d="M640,900 L700,620 L760,560 L840,560 L900,620 L960,900 Z" fill="#140c28" />
-    <rect x={745} y={300} width={110} height={270} fill="#140c28" />
-    <path d="M735,300 L800,190 L865,300 Z" fill="#140c28" />
-    <Glow id="dream-win" cx={800} cy={380} r={70} color="#ffd98a" opacity={0.6} />
-    <path className="flicker" d="M785,400 L785,365 Q800,345 815,365 L815,400 Z" fill="#ffe1a0" />
-    <Fog y={760} h={90} color="#8d74c4" opacity={0.25} speed={80} />
-    <Fog y={850} h={110} color="#b49ae0" opacity={0.2} speed={55} reverse />
+    <path d="M640,900 L700,620 L760,560 L840,560 L900,620 L960,900 Z" fill="#3e739c" />
+    <rect x={745} y={300} width={110} height={270} fill="#3e739c" />
+    <path d="M735,300 L800,190 L865,300 Z" fill="#3e739c" />
+    <Glow id="dream-win" cx={800} cy={380} r={70} color="#c7efff" opacity={0.6} />
+    <path className="flicker" d="M785,400 L785,365 Q800,345 815,365 L815,400 Z" fill="#edfbff" />
+    <Fog y={760} h={90} color="#caeaff" opacity={0.25} speed={80} />
+    <Fog y={850} h={110} color="#e5f6ff" opacity={0.2} speed={55} reverse />
   </>
 )
 

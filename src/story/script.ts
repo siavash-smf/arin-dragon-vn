@@ -10,11 +10,11 @@ export const TITLE = 'آرین و اژدهاک'
 export const SUBTITLE = 'داستانی از نیزه، شمشیر و رؤیا'
 
 export const CHARACTERS: Record<string, CharacterDef> = {
-  arin: { name: 'آرین', color: '#8fd3ff' },
-  nilufar: { name: 'نیلوفر', color: '#d7b8ff' },
-  bahram: { name: 'استاد بهرام', color: '#ffbf6b' },
-  wanderer: { name: 'پیرِ رهگذر', color: '#a8d8a0' },
-  dragon: { name: 'اژدهاک', color: '#ff6a4d' },
+  arin: { name: 'آرین', color: '#176797' },
+  nilufar: { name: 'نیلوفر', color: '#6550a0' },
+  bahram: { name: 'استاد بهرام', color: '#86520f' },
+  wanderer: { name: 'پیرِ رهگذر', color: '#316a47' },
+  dragon: { name: 'اژدهاک', color: '#ad3e2e' },
 }
 
 export const ENDINGS: Record<string, EndingDef> = {
